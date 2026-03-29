@@ -53,3 +53,17 @@ dkms.conf
 
 # debug information files
 *.dwo
+# CCS Specific
+Debug/
+Release/
+Generated Binaries/
+GrLib/
+Lcd_Driver/
+images/
+.settings/
+.clangd
+.cproject
+*.out
+*.map
+*.obj
+*.d
