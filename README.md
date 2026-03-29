@@ -1,1 +1,0 @@
-# Darshan7052006-Embedded-c-projects-using-msp430g2et-launchpad
