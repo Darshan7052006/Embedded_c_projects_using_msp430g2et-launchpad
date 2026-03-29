@@ -9,27 +9,27 @@ CMD_SRCS += \
 ../lnk_msp430g2553.cmd 
 
 C_SRCS += \
-../main2.c \
+../interrupthandling.c \
 ../system_pre_init.c 
 
 C_DEPS += \
-./main2.d \
+./interrupthandling.d \
 ./system_pre_init.d 
 
 OBJS += \
-./main2.obj \
+./interrupthandling.obj \
 ./system_pre_init.obj 
 
 OBJS__QUOTED += \
-"main2.obj" \
+"interrupthandling.obj" \
 "system_pre_init.obj" 
 
 C_DEPS__QUOTED += \
-"main2.d" \
+"interrupthandling.d" \
 "system_pre_init.d" 
 
 C_SRCS__QUOTED += \
-"../main2.c" \
+"../interrupthandling.c" \
 "../system_pre_init.c" 
 
 

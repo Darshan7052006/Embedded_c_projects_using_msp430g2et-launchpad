@@ -8,7 +8,7 @@ SHELL = cmd.exe
 %.obj: ../%.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
 	@echo 'Building file: "$<"'
 	@echo 'Invoking: MSP430 Compiler'
-	"C:/ti/ccs2041/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp -O3 --use_hw_mpy=none --include_path="C:/ti/ccs2041/ccs/ccs_base/msp430/include" --include_path="C:/Users/Lenovo/workspace_ccstheia/EMBD.MSP.C" --include_path="C:/Users/Lenovo/workspace_ccstheia/EMBD.MSP.C/GrLib/grlib" --include_path="C:/Users/Lenovo/workspace_ccstheia/EMBD.MSP.C/GrLib/fonts" --include_path="C:/ti/ccs2041/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power="none" --define=__MSP430G2553__ -g --gcc --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="$(basename $(<F)).d_raw" $(GEN_OPTS__FLAG) "$<"
+	"C:/ti/ccs2041/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp -O3 --use_hw_mpy=none --include_path="C:/ti/ccs2041/ccs/ccs_base/msp430/include" --include_path="D:/Embedded.c.projects/INTERRUPT_HANDLING.PROJECT" --include_path="D:/Embedded.c.projects/INTERRUPT_HANDLING.PROJECT/GrLib/grlib" --include_path="D:/Embedded.c.projects/INTERRUPT_HANDLING.PROJECT/GrLib/fonts" --include_path="C:/ti/ccs2041/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power="none" --define=__MSP430G2553__ -g --gcc --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="$(basename $(<F)).d_raw" $(GEN_OPTS__FLAG) "$<"
 	@echo 'Finished building: "$<"'
 	@echo ' '
 

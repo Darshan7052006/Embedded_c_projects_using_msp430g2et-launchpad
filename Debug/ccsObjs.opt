@@ -1,4 +1,4 @@
-"./main2.obj"
+"./interrupthandling.obj"
 "./system_pre_init.obj"
 "./GrLib/fonts/fontcm12.obj"
 "./GrLib/fonts/fontcm12b.obj"
